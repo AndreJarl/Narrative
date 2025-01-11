@@ -268,6 +268,36 @@ body{
 	font-weight: 400;
 }
 
+
+.blogcontainer{
+    margin-top: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4em;
+}
+
+.blogcontainer img{
+    width:400px;
+    margin-bottom:2em;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    margin-top:2em;
+}
+
+.content{
+    width:900px;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
 /*================================================PC VERSION ===========================================*/
 
 @media only screen and (min-width: 1024px) {
